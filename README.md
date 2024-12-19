@@ -35,22 +35,7 @@ To run playwright Test - Parallel 3 Thread's
 
 ```
 
-### Visual UI Tests with Selenium
 
-Navigate to https://smartui.lambdatest.com/projects
-
-1. Run command ```   mvn test -D suite=visual_baseline.xml -Denv.project=<NAME_OF_THE_CUSTOMER> ``` 
-2. run command ```  mvn test -D suite=visualchangebuild.xml -Denv.project=<NAME_OF_THE_CUSTOMER> ```
-
-Runs will be reflected in the smartUI dashboard with the same project name as passed in maven commands((NAME_OF_THE_CUSTOMER) ) above 
-
-### Run test with Hyperexecute
-
-
-1. Run function test ```   ./hyperexecute --config testng_hyperexecute_autosplit_sample.yaml --download-artifacts --force-clean-artifacts --user chadlambdatest --key LAjkvvXbIjGh57YOQE6DP4yYJIWlNdFZp1onghxz3eyEAt6Md2  ```
-2. Run jmeter test ```   ./hyperexecute --config jmeter.yaml --download-artifacts --force-clean-artifacts --user chadlambdatest --key LAjkvvXbIjGh57YOQE6DP4yYJIWlNdFZp1onghxz3eyEAt6Md2  ```
-
-Runs will be reflected in the Hyperexecute dashboard here https://hyperexecute.lambdatest.com/hyperexecute/jobs
 
 
 
